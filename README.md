@@ -86,7 +86,8 @@ Basic responsive visual style
 This CRUD does not permanently store data in a real database.
 
 📷 Screenshots
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/d288a8f3-eedd-45ee-b925-00892ecb963f)
+
 
 🧑‍💻 Author
 Mayerly Zapata Rodriguez
