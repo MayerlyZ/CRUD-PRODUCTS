@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "8537",
+      "name": "Arroz",
+      "price": 5000
+    },
+    {
+      "id": "0ca1",
+      "name": "Pechuga",
+      "price": 5000
+    },
+    {
+      "id": "0ada",
+      "name": "Carne",
+      "price": 5000
+    }
+  ]
+}

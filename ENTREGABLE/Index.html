@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD PRODUCT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>CRUD</h1>
+
+    <h2>Add Product</h2>
+    <form id="formAdd">
+      <input type="text" id="name" placeholder="Name of product" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <button type="submit" class="buttonAdd">Add</button>
+    </form>
+
+   <h2>Added Products</h2>
+    <div id="products">
+     
+    </div>
+
+   
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <h3>Edit product</h3>
+        <form id="formModal">
+          <input type="text" id="modalName" placeholder="Name" required />
+          <input type="number" id="modalPrice" placeholder="Price" required />
+          <div class="modal-buttons">
+            <button type="submit" id="btnSave">Save</button>
+            <button type="button" id="btnCancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script defer src="app.js"></script>
+</body>
+</html>
